@@ -23,3 +23,30 @@ console.log(idade);
 
 //1.3
 import {Usuario, idade as IdadeUsuario} from './functions(modulo2)';
+
+//modulo 3
+
+//1
+
+import {umPorSegundo} from './modulo3';
+
+umPorSegundo();
+
+//2
+import {getUserFromGithub} from './modulo3'
+
+getUserFromGithub('diego3g');
+getUserFromGithub('diego3g124123');
+
+//3
+import { Github } from "./modulo3";
+
+
+Github.getRepositories('rocketseat/rocketseat.com.br');
+Github.getRepositories('rocketseat/dslkvmskv');
+
+//4
+import { buscaUsuario } from "./modulo3";
+
+
+buscaUsuario('diego3g');
